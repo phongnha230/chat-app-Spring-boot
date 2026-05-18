@@ -1,14 +1,15 @@
 package com.chatapp.chat.service.Impl;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
 import com.chatapp.chat.entity.ChatMessage;
 import com.chatapp.chat.repository.ChatMessageRepository;
 import com.chatapp.chat.service.ChatService;
-import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
-import java.time.LocalDateTime;
+import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
